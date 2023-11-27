@@ -17,6 +17,10 @@ main{
     margin-right: 20px;
 }
 
+/*
+Attempted to make the nav bar strictly show up in the centre of the page. Best I could achieve.
+*/
+
 .navbar ul{
     list-style-type: none;
     background-color: #DFE0E2;
@@ -46,6 +50,10 @@ main{
 .navbar a:hover{
     background-color: #AAAAAA;
 }
+
+/* 
+Attempting to make the image grid work succesfully, but unable too
+*/
 
 section {
     display: block;
