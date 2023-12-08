@@ -1,5 +1,7 @@
+
 * { 
     font-family: 'Raleway', sans-serif;
+    
 }
 
 body{
@@ -24,14 +26,14 @@ Attempted to make the nav bar strictly show up in the centre of the page. Best I
 .navbar ul{
     list-style-type: none;
     background-color: #DFE0E2;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 2px;
     padding-bottom: 2px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 10px;
     overflow: hidden;
-    text-align: center;
+    width: fit-content; margin: 0 auto;
     
 }
 
@@ -59,7 +61,7 @@ section {
     display: block;
     width: fit-content;
     height: auto;
-    width: 70%;
+    width: 70%;height:auto;
     margin-top: 8px;
 }
 .grid img {
@@ -103,4 +105,45 @@ table th{
 footer{
     text-align: center;
     color: #DFE0E2;
+}
+
+@media screen and (max-width: 481px) {
+    .navbar ul{
+        list-style-type: none;
+        background-color: #DFE0E2;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        overflow: hidden;
+        width: fit-content; margin: 0 auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+
+    img {
+        align-content: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    section{
+        align-items: center;
+    }
+
+    .grid img {
+        align-items: center;
+        width: 100 auto;
+    }
+
+
+
 }
